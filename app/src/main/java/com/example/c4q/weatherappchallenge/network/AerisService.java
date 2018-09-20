@@ -19,7 +19,6 @@ public class AerisService {
                 .build();
     }
 
-    @NonNull
     public AerisAPI getAerisAPI() {
         return retrofit.create(AerisAPI.class);
     }
